@@ -1,0 +1,11 @@
+
+- Fijarse que en Deportes no guarda adecuadamente los internos de
+	4 digitos.
+	Ej: 10:30, llamada al 155059087
+
+- Los archivos spooler_*.c no se deben conectar a la DB para probar,
+conectividad, sino que habria que definir un set de comandos de
+prueba y testeo, a nivel del protocolo del priced.
+
+- Agrandar el campo "codigo" en los spooler_*.c
+
