@@ -21,3 +21,6 @@ All programs named as *cap** are capturers from PBX billing system
 All programs named as *dbup** uploads the billing information to the custom TCP service. In case the communication failed, the info is stored in a file in a local spooler, waiting to be uploader later.
 
 All programs named as *spooler** is a command that traverses the spooler and upload the missing information. It deletes the file in the spooler if the info was uploaded correctly.
+
+*Centrales* includes info about some aspecto of the billing log once I enabled it in some PBXs.
+

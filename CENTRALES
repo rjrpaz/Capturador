@@ -1,0 +1,20 @@
+La Central telefonica registra todo tipo de llamadas, inclusive los numeros
+que fueron marcados parcialmente. En ese caso, el parametro para excluir este
+tipo de llamadas es que la cantidad de pulsos y la duracion sea 0.
+
+Cuando el numero que recibo es, p.e., 8624, es una llamada a Educacion. En
+este caso en particular, las lineas las paga educacion, con lo cual no
+estarian incluidas en las facturas que le llegan a Antonio. Una particularidad
+de este tipo de registro es que como las llamadas se hacen entre Centrales
+Analogicas, estas carecen de ciertos tipos de senializacion, por lo cual
+la cantidad de pulsos es 0, no asi la cantidad de segundos.
+
+En el caso de que descarte el primer registro de una llamada saliente, debe
+descartar la siguiente.
+
+(¿ Cual de los dos tiempos que aparecen es el que corresponde ?).
+
+Hay casos en los cuales la llamada no tuvo exito, pero cuenta pulsos en
+segundos. Generalemente son llamadas a numeros de 4 cifras.
+
+
